@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/css/reset.css">
+    <link rel="stylesheet" href="../dist/css/login.css">
+    
+    <script src = 'js/require.js' async = 'true' defer data-main = 'js/main2'></script>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <a href=""><img src="../images/mistore_logo.png" alt=""></a>
+        </div>
+        <div class="container">
+           <div class="content-bg">
+               <div class="content-table">
+                    <div class="content-f">
+                        <div class="content-heade">
+                            <a href="" class="now">密码登录</a>
+                            <span class="sep"></span>
+                            <a href="">扫码登录</a>          
+                        </div>
+                        <form action="">
+                            <div class="inpu">
+                                <input type="text" autocomplete="off" name="username" id="user" class="input-one" placeholder="手机号码/小米账户/邮箱">
+                                <input type="password" autocomplete="off" id="passw" name="password" class="input-two">
+                            </div>
+                            <div class="alert alert-danger" id="alert_info">wwww</div>
+                            <div class="submit-btn">
+                                <input type="button" name="submit" id="submit-btn" value="登录">
+                            </div>
+                            <div class="login-regist">
+                                <a href="register.html">立即注册</a>
+                                <span class="sep"></span>
+                                <a href="">忘记密码</a>
+                            </div>
+                        </form>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id = 'custom_display_4' class = 'n-footer'>
+            <div class="nf-link-area clearfix">                
+                <ul class="lang-select-list">                  
+                    <li><a href="javascript:void(0)" data-lang="zh_CN" class="lang-select-li current">简体</a>|</li>                  
+                    <li><a href="?callback=https%3A%2F%2Forder.mi.com%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Fwww.mi.com%252F%26sign%3DNzY3MDk1YzczNmUwMGM4ODAxOWE0NjRiNTU5ZGQyMzFhYjFmOGU0Nw%2C%2C&amp;sid=mi_eshop&amp;_bannerBiz=mistore&amp;_qrsize=180&amp;_locale=zh_TW" data-lang="zh_TW" class="lang-select-li">繁体</a>|</li>                  
+                    <li><a href="?callback=https%3A%2F%2Forder.mi.com%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Fwww.mi.com%252F%26sign%3DNzY3MDk1YzczNmUwMGM4ODAxOWE0NjRiNTU5ZGQyMzFhYjFmOGU0Nw%2C%2C&amp;sid=mi_eshop&amp;_bannerBiz=mistore&amp;_qrsize=180&amp;_locale=en" data-lang="en" class="lang-select-li">English</a>|</li>                  
+                    <li><a href="https://static.account.xiaomi.com/html/faq/faqList.html" target="_blank">常见问题</a>|</li>                  
+                    <li><a id="msg-privacy" href="/about/protocol/privacy" target="_blank">隐私政策</a></li>                
+                </ul>              
+            </div>
+            <p class="nf-intro">小米公司版权所有-京ICP备10046444-<a class="beian-record-link" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134"><span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"></span>京公网安备11010802020134号</a>-京ICP证110507号</p>
+        </div>
+    </div>
+</body>
+</html>

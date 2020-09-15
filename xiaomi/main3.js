@@ -1,0 +1,18 @@
+console.log("成功");
+require.config({
+    paths:{
+        "jquery":"jquery-1.11.3",
+        "jquery-cookie":"jquery.cookie",
+        "parabola":"parabola",
+        "register":"register"
+    },
+    shim:{
+        "jquery-cookis":["jquery"],
+        "parabola":{
+            exports:"_"
+        }
+    }
+})
+require(["register"],function(register){
+    register.registerSend();
+})

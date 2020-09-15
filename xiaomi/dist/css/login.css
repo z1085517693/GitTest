@@ -1,0 +1,131 @@
+.header {
+  width: 1226px;
+  margin: 0 auto;
+  background: skyblue; }
+
+.container {
+  position: relative;
+  height: 558px; }
+
+.content-bg {
+  width: 100%;
+  height: 558px;
+  position: absolute;
+  background: url(../images/loginban.jpg) no-repeat;
+  background-position: top center; }
+
+.content-bg img {
+  display: block;
+  width: 100%;
+  height: 558px; }
+
+.container .content-table {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  background: #fff;
+  top: 90px;
+  right: 130px; }
+
+#alert_info {
+  margin: 2px;
+  padding: 2px;
+  text-align: center;
+  margin-bottom: 10px;
+  display: none; }
+
+.container .content-table .content-f .content-heade {
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+  padding: 27px 0 24px; }
+
+.container .content-table .content-f .content-heade a {
+  color: #666; }
+
+.container .content-table .content-f .content-heade .now {
+  color: #ff6700; }
+
+.container .content-table .content-f .content-heade .sep {
+  width: 1px;
+  height: 24px;
+  margin: 0 35px;
+  border: 1px solid #e0e0e0;
+  background: #e0e0e0; }
+
+.container .content-table .content-f .inpu {
+  padding-left: 26px; }
+
+.container .content-table .content-f .inpu input {
+  width: 280px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #666;
+  padding: 11px 8px;
+  margin-bottom: 20px; }
+
+.submit-btn input {
+  margin-left: 26px;
+  width: 300px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  color: #fff;
+  background: #ff6700;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px  solid #666;
+  margin-bottom: 30px; }
+
+#alert_info {
+  margin: 2px;
+  padding: 2px;
+  text-align: center;
+  margin-bottom: 10px;
+  display: none; }
+
+.login-regist {
+  margin-left: 105px;
+  font-size: 16px; }
+
+.login-regist a {
+  display: block;
+  float: left;
+  color: #6c6c6c; }
+
+.login-regist .sep {
+  float: left;
+  width: 1px;
+  display: block;
+  height: 16px;
+  border-left: 1px solid #e0e0e0;
+  background: #e0e0e0;
+  margin: 2px 7px 0; }
+
+.n-footer {
+  height: 80px;
+  text-align: center;
+  position: relative;
+  width: 1226px;
+  margin-left: 132px; }
+
+.nf-link-area {
+  text-align: center;
+  padding: 30px 0 10px; }
+
+.nf-link-area li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+.nf-link-area a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 0 10px;
+  color: #757575; }
+
+.nf-link-area a:hover, .nf-link-area a.current {
+  color: #333; }
